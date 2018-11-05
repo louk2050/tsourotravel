@@ -1,0 +1,90 @@
+body , html {
+
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+main {
+
+    background-image: url("images/landing-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+#contentwrap {
+
+    width: 50%;
+    margin: auto;
+    border: 3px solid green;
+    padding: 20px;
+    margin-top: 8em;
+    background-color: aliceblue;
+    font-size: 20px;
+    overflow: auto;
+    display: flex;
+}
+@media (max-width: 900px) {
+    #contentwrap {
+        width: 80%;
+    }
+}
+
+
+
+#checktab {
+
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid red;
+    border-radius: 4px;
+    float: right;
+    display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+#disctab {
+padding: 10px;
+width: 50%;
+height: 100%;
+float: left;
+display: flex;
+  flex-wrap: wrap;
+
+
+
+}
+
+header {
+
+    background-color: gray;
+    font-size : 30px;
+    padding: 10px;
+    position: fixed; top: 0;
+    width:100%;
+}
+
+
+
+footer {
+
+
+    background-color: gray;
+    font-size : 15px;
+    padding: 5px;
+    position: fixed; bottom: 0 ;
+    width: 100%;
+    text-align: center;
+    
+   
+    
+
+}
